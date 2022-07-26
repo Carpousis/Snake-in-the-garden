@@ -5,7 +5,7 @@ body {
 .grid {
     width: 50%;
     height: 50vw;
-    border: 10px solid red;
+    border: 2px solid rgb(132, 0, 255);
     margin:  auto;
     display: flex;
     flex-wrap: wrap;
@@ -29,11 +29,12 @@ body {
 
 .popup {
     background: rgb(32, 31, 31);
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 4
+    0px;
     position: fixed;
-    top: 100px;
-    left: 100px;
+    top: 230px;
+    left: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
