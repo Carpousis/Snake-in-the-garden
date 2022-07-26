@@ -1,7 +1,9 @@
 body {
     background:rgb(212, 211, 211)
 }
-
+.title {
+    text-align: center;
+}
 .grid {
     width: 50%;
     height: 50vw;
