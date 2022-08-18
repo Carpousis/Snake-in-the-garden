@@ -1,42 +1,43 @@
-body {
+.body {
     background:rgb(212, 211, 211)
 }
-.title {
-    text-align: center;
-}
+
 .grid {
-    width: 50%;
-    height: 50vw;
+    width: 200px;
+    height: 200px;
     border: 2px solid rgb(132, 0, 255);
-    margin:  auto;
+    margin:  0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .grid div {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     /* border: 1px black solid;
     box-sixing: border-box; */
 }
 
+.title {
+    text-align: center;
+}
+
 .snake {
-    background: blueviolet;
+    background: rgb(10, 24, 186);
 }
 
 .apple {
     background: red;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .popup {
     background: rgb(32, 31, 31);
-    width: 50px;
-    height: 4
-    0px;
+    width: 75px;
+    height: 50px;
     position: fixed;
-    top: 230px;
-    left: 550px;
+    top: 100px;
+    left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
